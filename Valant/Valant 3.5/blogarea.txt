@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valant Medical Solutions Web Features</title>
+
+	<!-- Begin Stylesheets -->
+		<link rel="stylesheet" href="css/Normalize.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+        
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <!--Remove this JQuery Script File when adding to WP-->
+        	
+		<!-- End Stylesheets -->
+
+   
+    	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+
+
+</head>
+
+<body>
+
+<!-- This is the site's top bar for housing the social media icons
+		-The top bar will be #000021(hexadecimal) or #000033 (hexadecimal)
+        -The social media icons will be on the right-hand side and colored: #CF9547 or #CC9933
+-->
+
+
+<div id="topHome" style="background-color:#996633; color:#ffffff;" class="container-fluid microTop">
+        <div class="row-fluid navbar-fixed-top span12">
+			<div id="socialM" class=" pull-right">
+					<!--This is where is the social media icons will go.
+        			I plan to use a WordPress plugin here for ease of future
+                	customization by Valant Medical Solutions Staff -->
+        		</div> 
+    		</div>
+          
+</div>	
+<!-- This is the end of the Top Bar -->
+
+
+
+
+
+<!-- This is the site's main header, including the main navigation menu (this would be a "Header" Element if I were going to use HTML5)-->
+<header>
+<div class="container">
+
+ 		<div class="row-fluid">
+        
+                    <!-- Start Valant Logo -->
+                	<div id="logo" class="span3">
+                    	<a href="http://www.valant.com/valanthome">
+                    		<img alt="Valant EMR/EHR for Behavioral Health Professionals" src="imgs/logo.png" />
+                    	</a>
+                     </div>
+                     <!-- End of Logo -->
+                     
+					<!-- This will hold the site's main navigation menu -->
+                 	<div class="span9" id="navHolder">
+                    
+                    	<!-- Additionally, this menu will be replaced by the site's Main navigation <?php wp_nav_menu('right here');?> -->
+                 		<ul class="nav nav-pills pull-left  p12 homeNav">
+                    		<li><a href="#" class="">About Us</a></li>
+                            <li><a href="#" class="">EMR Solutions</a></li>
+                            <li><a href="#" class="">Products</a></li>
+                            <li><a href="#" class="">Support</a></li>
+                            <li><a href="#" class="">Media Center</a></li>
+                            <li><a href="#" class="">Client Login</a></li>
+                            <li><a href="#" class="">Contact Us</a></li>
+	                    </ul>
+                 	</div>
+                    <!-- End Nav Holder -->
+        </div>
+               </div>     <!-- End Row -->
+ <!--End Container"-->
+ </header>
+<!-- End Header -->
+
+<!-- This Wraps the Entire Page Content M@-->
+<div id="wrapper" style="width:1170px;">
+	
+	
+	<div class="container-fluid" style="color:#666666;">
+			<div id="web_menu_top_title" class="row-fluid mtop20 p14">
+				
+				<div class="span5"><a style="margin-left:-14px;" class="lightGray" href="#">VALANT FOR PSYCHIATRISTS</a></div>
+									<div class="span4 offset3 pull-right" style="margin-right:-60px;"><a class="lightGray" href="#">Psychiatrist Suite Modules |  </a> <a class="lightGray" href="#">Mobile Notes</a></div>
+			</div>
+			
+			<div class="row-fluid"><img alt="D_Bubble" class="pull-right mtop20" width="35" height="35" src="imgs/demo button/D_bubble.png" /></div>
+			
+			
+			
+			
+			
+			<div class="span4"><p class="p18" style="color:#cccccc;">PSYCHIATRIST MODULE FEATURES</p></div>
+			
+			
+			
+			
+			<div class="row-fluid"  style="float:left;">
+				
+				
+			<p class="span2 offset2 mtop50" style="color:#996633;padding-bottom:56px;font-size:53px;font-family:Proxima Nova;margin-bottom:22px;border-bottom:1px solid #cccccc!important;">EHR</p>
+			
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="row-fluid mtop50" style="padding-bottom:53px;">
+														<p class="span7 offset2">Transform the way you manage your behavioral healthcare practice. Skip the software
+																				installation costs and gain access to your records anytime, anywhere with our 100%
+																				web-based EHR. Packed with simple-to-use features, there is a reason we call our system
+																				the “Easy Health Records.”
+														</p>
+			</div>
+
+
+		<div class="row-fluid">
+			
+					<p class="span3 offset2 pull-left" style="padding-bottom:53px;">FAVORITE FEATURES:</p>
+		</div>
+		<div class="row-fluid">	
+					<p class="span3 offset2 pull-left">Schedule Patient Visits</p><p class="span4 offset2 pull-left">Securely Store Records (HIPPA)</p>
+		</div>
+		<div class="row-fluid" style="margin-bottom:100px;">			
+					<p class="span3 offset2 pull-left">Easily Document Encounters</p><p class="span4 offset2 pull-left">Automated Appointment Reminders</p>
+		</div>
+		
+		
+
+	</style>	
+		
+		
+		
+		<!-- Start Web Feature -->	
+<div class="row-fluid padd50">
+				<div class="row span9 offset1">
+				<h4 style="color:#666666!important;margin-bottom:0;padding-bottom:0;" class="span2 offset1 m14semi" id="dropcontainer1">SCHEDULING</h4>
+							
+								
+								<div id="dropdiv1" class="offset1 mtop50"><p>DESCRIPTION</p>
+				
+									<div class="span10 p14 mtop50">Scheduling patient visits has never been so streamlined with our web-accessible, customizable
+																	calendar feature. Whether you are a solo provider or you work in a large group behavioral health
+																	practice, view client appointments for single oce or multiple facilities in one clear screenshot.
+																	Our color coding system allows you to categorize each appointment and convey relevant information
+																	at a glance. For example, the color green may be assigned to a patient scheduled for psychotherapy.
+									</div>
+										<p class="span10 m11"><a href="#" style="color:#000000;">Read more...</a></p>
+				
+							</div>
+</div>
+<!-- End Web Feature -->
+		
+		
+		
+		
+		
+		
+		
+<!-- Start Web Feature Two-->	
+<div class="row-fluid padd50">
+				<div class="row span9 offset1">
+				<h4 style="color:#666666!important;margin-bottom:0;padding-bottom:0;" class="span2 offset1 m14semi" id="dropcontainer2">CALENDAR</h4>
+							<div class="span10 offset1" id="dropdiv2">
+								
+								<p class="pull-left mtop50">DESCRIPTION</p>
+				
+									<p class="span10 p14 mtop50" style="padding-bottom:28px;">Multiple facility appointments Sync with mobile!
+									</div>
+										<p class="span10 m11"><a href="#" style="color:#000000;">Read more...</a></p>
+				
+							</div>
+			</div>
+</div>
+<!-- End Web Feature Two -->		
+		
+<!-- Start Web Feature THREE-->	
+<div class="row-fluid padd50">
+				<div class="row span9 offset1">
+				<h4 style="color:#666666!important;margin-bottom:0;padding-bottom:0;" class="span2 offset1 m14semi" id="dropcontainer3">CUSTOMIZE DOCUMENTS</h4>
+							<div class="span10 offset1" id="dropdiv3">
+								
+								<p class="pull-left mtop50">DESCRIPTION</p>
+								<p class="span10 p14 mtop50" style="padding-bottom:28px;">Scheduling patient visits has never been so streamlined with our web-accessible, customizable
+calendar feature. Whether you are a solo provider or you work in a large group behavioral health
+practice, view client appointments for single oce or multiple facilities in one clear screenshot.
+Our color coding system allows you to categorize each appointment and convey relevant information
+at a glance. For example, the color green may be assigned to a patient scheduled for psychotherapy.</p>
+				
+				
+									
+										<p class="span10 m11"><a href="#" style="color:#000000;">Read more...</a></p>
+				
+							</div>
+			</div>
+</div>
+<!-- End Web Feature THREE -->			
+		
+	<!-- Start Web Feature FOUR-->	
+<div class="row-fluid padd50">
+				<div class="row span9 offset1">
+				<h4 style="color:#666666!important;margin-bottom:0;padding-bottom:0;" class="span2 offset1 m14semi" id="dropcontainer4">PRACTICE MANAGEMENT REPORTING</h4>
+							<div class="span10 offset1" id="dropdiv4">
+								
+								<p class="pull-left mtop50">DESCRIPTION</p>
+				
+									<p class="span10 p14 mtop50" style="padding-bottom:28px;">Scheduling patient visits has never been so streamlined with our web-accessible, customizable
+calendar feature. Whether you are a solo provider or you work in a large group behavioral health
+practice, view client appointments for single oce or multiple facilities in one clear screenshot.
+Our color coding system allows you to categorize each appointment and convey relevant information
+at a glance. For example, the color green may be assigned to a patient scheduled for psychotherapy.
+									</p>
+										<p class="span10 m11"><a href="#" style="color:#000000;">Read more...</a></p>
+				
+							</div>
+			</div>
+</div>
+<!-- End Web Feature FOUR-->		
+		
+		
+		
+				
+	</div>
+
+
+
+<div class="row-fluid"><img src="imgs/divider line/arrow_with_line.png" alt="thearrowline"/></div>
+
+
+<div id="lastSection">
+   
+<!-- START 4 column widget areas to be added here for WordPress M@-->
+	<div class="row-fluid">
+    	
+        	<div class="span3 mtop20">
+           <img src="imgs/footer/footer_red_arrow.png" style="margin-right:20px;vertical-align:middle;" class="pull-left" alt="Call To Action Green"/><h3 class="m23" style="display:table-cell; vertical-align:middle;">Call to action</h3>
+           <a href="#" style="text-decoration:none;"><p style="padding-left:54px;" class="p14">Click to get a personalized demo today!</a>
+            </div>
+            
+            
+            
+            
+            
+            <div class="span2" style="padding-top:9px;">
+            	<a href="#"><img src="imgs/footer/footer_black_demo.png" alt="book now"/></a>
+           	</div>
+            
+            
+            
+            
+            
+            <div class="span2" style="display:table-cell; vertical-align:middle;"><h4 class="p14 web_menu_list">Contact Us</h4><br />
+            	<ul class="listOne p11" style="margin-top:-20px;margin-left:4px;">
+            		<li><i class="icon-user"></i> +1(888) 774.0532</li>
+            		<li><i class="icon-envelope"></i> info@valantmed.com</li>
+            		<li><i class="icon-map-marker"></i> 1200 5th Avenue</li>		
+                    <li style="margin-left:30px;">Seattle, WA 98101</li>
+            	</ul>
+            </div>
+            
+            
+            
+            
+            
+            <div class="span2"><h4 class="p14 web_menu_list">Twitter Feed</h4></div>
+            
+            <div class="span2" style="vertical-align:middle;"><h4 class="p14 web_menu_list">Upcoming Events</h4><br />
+            		<div class="listThree pull-left p11">
+            		<p><a>May 18-22 166th APA Conference, San Francisco, CA: Booth 1742</a></p>
+            		<p><a>June 20-23: APNA 10th Annual Conference, Reston, VA: Booth 16</a></p>
+            		<p><a>July 25-27 GPPA Meeting, Amelia Island, FL: Booth 201</a></p>
+            		<p><a class="m12">See Calendar</a></p>
+            	</div>
+            </div>
+ 
+</div>
+<!-- END 4 column widget areas to be added here for WordPress -->
+
+</div>
+<!-- End Last Section -->
+
+<!--End Page Wrapper-->
+</div>
+
+<!-- Begin the site Footer -->
+<footer style="background-color:#996633">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<p class="span8 offset2" style="color:#ffffff;"> Copyright &copy; 2009-2013 Valant Medical Solutions Inc. All images &copy; of Valant Medical Solutions, Inc.</p>		
+	</div>
+</div>
+</footer>
+<!-- End the Site Footer -->
+
+
+
+</body>
+
+</html>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

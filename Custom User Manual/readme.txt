@@ -1,0 +1,1 @@
+This holds the user manual Matt Walker created for Evidence-Based Treatment Center in Seattle, Wa. Matt instructed the marketing representative on how to use WordPress with the theme provided.
