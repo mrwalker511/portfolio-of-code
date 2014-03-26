@@ -72,6 +72,25 @@ footer{
 	background-color:#080808;
 }
 
+#aboutContent{
+	height:450px;
+	background-color:#fff;
+}
+
+
+#aboutContent> div > div{
+	
+	margin-top:-10px;
+}
+
+
+#aboutFooter{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
 @media screen and (max-width: 600px){
 	body:first-child{
 		margin-bottom:-100px;

@@ -1,17 +1,13 @@
 
 
 
+// For the tabbed content
 
 
-$('#myDrop').on('show.bs.dropdown', function () {
-     
-     // add margin / padding to your adsense container
-     
-})
+$('#myTab a[href="#aboutus"]').tab('show');
 
-$('#myDropdown').on('shown.bs.dropdown', function () {
-     // this part will be trigged after dropdown is shown
 
-     // Grab height of dropdown
-    
-})
+$('#myTab a[href="#monkey"]').tab('show');
+$('#myTab a[href="#around"]').tab('show');
+$('#myTab a[href="#contact"]').tab('show');
+
