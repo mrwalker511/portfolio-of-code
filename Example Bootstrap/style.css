@@ -110,10 +110,9 @@ img#logo{
 
 footer{
 	width:100%;
-	margin-top:-150px;
 	bottom:0;
 	left:0;
-	height:150px;
+	height:100px;
 	background-color:#080808;
 }
 
@@ -137,19 +136,34 @@ footer{
 }
 
 
-#aboutFooter{
-	position:absolute;
-	bottom:0;
-	left:0;
-}
 
 
 #productionContent{
 	width:100%;
-	height:500px;
+	min-height:100% !important;
+	height:700px;
 	background-color:#fff;
 }
 
+
+#aboutFooter{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:60px;
+	margin-bottom:-200px;
+	
+	background-color:#080808;
+}
+
+.accordion-group{
+	padding-bottom:15px;
+}
+
+.accordion-group:first-of-type{
+	padding-top:20px;
+}
 
 @media screen and (max-width: 600px){
 	body:first-child{
