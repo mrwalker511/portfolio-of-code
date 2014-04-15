@@ -1,0 +1,5 @@
+FFFFFF - White
+000000 - Black
+004FAB - The Blue
+9E9585 - Light Gray
+7D776F - Dark Gray
